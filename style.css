@@ -261,6 +261,9 @@ section {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  padding-right: 60px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .info {
@@ -314,12 +317,14 @@ section {
   width: 250px;
   height: 450px;
   padding: 50px 0;
+ ;
 }
 
 .swiper-slide {
   position: relative;
   box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
+  
 }
 
 .swiper-slide h2 {
@@ -336,6 +341,7 @@ section {
 .swiper-slide:nth-child(1n) {
   background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("./assets/images/c.png")
       no-repeat 50% 50% / cover;
+      
 }
 
 .swiper-slide:nth-child(2n) {
@@ -389,3 +395,128 @@ section {
 .div1A{
   margin-top: 25px;
 }
+
+
+
+
+
+
+
+.slide-up-animation {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 1.2s ease, transform 1.2s ease;
+}
+
+.slide-up-animation.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+
+
+@media (max-width: 700px) {
+  .content {
+    flex-direction: column;
+    padding: 20px;
+    width: 90%;
+  }
+  .info {
+    max-width: 100%;
+  }
+}
+
+
+@media (max-width: 700px) {
+  
+.div2 {
+  margin: 10px;
+  margin-top: 200px;
+  
+  width: 90%;
+ 
+  background-color: #F2F2F2;
+  color: #262522;
+  display: flex;
+  text-align: center;
+  justify-content: center; 
+  border-radius: 5px;
+  flex-direction: column;
+
+
+
+
+justify-content: center;
+align-items: center; 
+
+background: linear-gradient(
+  180deg,
+  rgba(255, 255, 255, 0.884) 0%,
+  rgba(255, 255, 255, 0.596) 100%
+);
+backdrop-filter: blur(30px);
+border-radius: 10px;
+
+box-shadow: 0 0.5px 0 1px rgba(255, 255, 255, 0.23) inset, 0 1px 0 0 rgba(255, 255, 255, 0.66) inset, 0 4px 16px rgba(0, 0, 0, 0.12);
+z-index: 10;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+
+}
+.div2 h4{
+  padding: 5px;
+  width: 60%;
+  font-size: 22px;
+  color:#5D5C5C;
+}
+
+#about{
+  display: flex;
+  justify-content: center;
+}
+}
+
+
+@media (max-width: 700px) {
+  
+  .div1 {
+    margin: 10px;
+    margin-top: 200px;
+    
+    width: 99%;
+   
+    background-color: #F2F2F2;
+    color: #262522;
+    display: flex;
+    text-align: center;
+    justify-content: center; 
+    border-radius: 5px;
+    flex-direction: column;
+  
+  
+  
+  
+  justify-content: center;
+  align-items: center; 
+  
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.884) 0%,
+    rgba(255, 255, 255, 0.596) 100%
+  );
+  backdrop-filter: blur(30px);
+  border-radius: 10px;
+
+  box-shadow: 0 0.5px 0 1px rgba(255, 255, 255, 0.23) inset, 0 1px 0 0 rgba(255, 255, 255, 0.66) inset, 0 4px 16px rgba(0, 0, 0, 0.12);
+  z-index: 10;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  
+  }
+
+  }
