@@ -411,7 +411,7 @@ section {
 @media (max-width: 700px) {
   .content {
     flex-direction: column;
-    
+    padding: 20px;
     width: 90%;
   
   }
