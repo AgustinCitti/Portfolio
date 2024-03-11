@@ -413,6 +413,10 @@ section {
     flex-direction: column;
     padding: 20px;
     width: 90%;
+  
+  }
+  .section1{
+    height: 100%;
   }
   .info {
     max-width: 100%;
@@ -425,7 +429,7 @@ section {
 .div2 {
   margin: 10px;
   margin-top: 200px;
-  
+  height: 100%;
   width: 90%;
  
   background-color: #F2F2F2;
@@ -468,6 +472,7 @@ user-select: none;
 #about{
   display: flex;
   justify-content: center;
+  height: 100%;
 }
 }
 
@@ -479,7 +484,7 @@ user-select: none;
     margin-top: 200px;
     
     width: 23rem;
-   
+    height: 100%;
     background-color: #F2F2F2;
     color: #262522;
     display: flex;
