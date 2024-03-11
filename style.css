@@ -416,6 +416,28 @@ section {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 700px) {
   .content {
     flex-direction: column;
@@ -481,12 +503,12 @@ user-select: none;
 
 
 @media (max-width: 700px) {
-  
+
   .div1 {
     margin: 10px;
     margin-top: 200px;
     
-    width: 99%;
+    width: 23rem;
    
     background-color: #F2F2F2;
     color: #262522;
@@ -518,5 +540,9 @@ user-select: none;
   user-select: none;
   
   }
-
+  .div1A{
+    display: flex;
+    justify-content: center;
   }
+  }
+
