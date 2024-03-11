@@ -14,15 +14,37 @@
 </head>
 <body>
 <header>
+    <style>
+        .navbar-toggler-container {
+            position: fixed;
+            top: 20px; /* Ajusta según la posición vertical deseada */
+            right: 20px; /* Ajusta según la posición horizontal deseada */
+        }
+    </style>
+    
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-           
-            <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <img src="./assets/images/" alt="">
+        <div class="container-fluid justify-content-center"> <!-- Alinea el contenido al centro -->
+            <!-- Botón del menú con imagen -->
+            <button class="navbar-toggler" style="border: none; background: none; padding: 0; outline: none;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <img src="./assets/images/circle-ellipsis_10741552.png" alt="" style="width: 30px; height: 30px; border-radius: 50%;">
             </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link "  href="#introduction">Introduction</a>
+    
+            <!-- Estilos para el botón del menú -->
+            <style>
+                .navbar-toggler:focus,
+                .navbar-toggler:active {
+                    outline: none;
+                    border: 1px solid transparent;
+                    box-shadow: 0 0 0 0.2rem rgba(27, 27, 27, 0.25);
+                    border-radius: 50%;
+                }
+            </style>
+    
+            <!-- Contenido del menú -->
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup"> <!-- Alinea los elementos al centro -->
+                <div class="navbar-nav d-flex justify-content-between"> <!-- Alinea los elementos en fila -->
+                    <!-- Elementos de navegación -->
+                    <a class="nav-link" href="#introduction">Introduction</a>
                     <a class="nav-link" href="#about">About me</a>
                     <a class="nav-link" href="#knowledge">Knowledge</a>
                     <a class="nav-link" href="#">Disabled</a>
@@ -30,6 +52,14 @@
             </div>
         </div>
     </nav>
+    
+    
+    
+    
+    
+    
+    
+    
     
     
 </header>
