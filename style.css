@@ -56,10 +56,17 @@ body {
     font-size: 40px;
     padding-top: 0;
 }
+.div1 h1:hover{
+  transform: scale(1.1); /* Escala del botón al pasar el cursor */
+    transition-duration: 0.4s; /* Duración de la transición */
+}
 .div1 h3{
     font-size: 25px;
 }
-
+.div1 h3:hover{
+  transform: scale(1.1); /* Escala del botón al pasar el cursor */
+    transition-duration: 0.4s; /* Duración de la transición */
+}
 .redirect {
     padding: 15px;
 }
@@ -75,6 +82,7 @@ body {
     transform: scale(0.9); 
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     border-radius: 50%;
+    
 }
 
 .divLinks {
@@ -144,7 +152,10 @@ header {
     width: 300px;
     box-shadow: 0 0 10px rgba(0, 0, 8, 8);
 }
-
+.fotoPerfil:hover {
+  transform: scale(1.1) rotate(360deg); /* Escala del botón al pasar el cursor y rotación de 360 grados */
+  transition-duration: 0.9s; /* Duración de la transición */
+}
 
 
 
@@ -154,65 +165,19 @@ header {
     font-size: 22px;
     color:#5D5C5C;
 }
-
-.TUP{
-    color: blue;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
-}
-.UTN{
-    color: crimson;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
-}
-.DF{
-    color: rgb(0, 233, 233);
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
-}
-.JS{
-    color:gold;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
-}
-.RJS{
-    color: aquamarine;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
-}
-.PB{
-    color: rgb(0, 219, 0);
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
-}
-.CN{
-    color:darkviolet;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
-}
-.NET{
-    color:indianred;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
-}
-.JQY{
-    color:rgb(255, 125, 4);
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
-}
-.DT{
-    color: rgb(255, 0, 34);
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
-}
-.ING{
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
-    color: rgb(66, 146, 59);
+.div2 h4:hover{
+  transform: scale(1.1); /* Escala del botón al pasar el cursor */
+  transition-duration: 0.4s; /* Duración de la transición */
 }
 
+  .div2 h3:hover{
+    transform: scale(1.4); /* Escala del botón al pasar el cursor */
+      transition-duration: 0.4s; /* Duración de la transición */
+  }
 
-
+.div2 h3{
+  font-size: 2rem;
+}
 
 
 
@@ -277,6 +242,11 @@ section {
   h2{
     font-size: 2rem;
   }
+  h2:hover{
+    transform: scale(1.4); /* Escala del botón al pasar el cursor */
+      transition-duration: 0.6s; /* Duración de la transición */
+  }
+
 }
 
 .pInfo1{
@@ -285,11 +255,11 @@ section {
   font-size: 20px;
   margin-bottom: 20px;
 }
-.pInfo2{
-  font-size: 22px;
-  color: #474747;
-  font-weight: 500;
+.pInfo1:hover{
+  transform: scale(1.1); /* Escala del botón al pasar el cursor */
+  transition-duration: 0.4s; /* Duración de la transición */
 }
+
 .movie-night {
   background: linear-gradient(225deg, #092B0F 0%, #E2725B 50%, #D2B48C 100%);
   color: #fff;
@@ -545,4 +515,40 @@ user-select: none;
     justify-content: center;
   }
   }
+
+  .navbar-toggler:focus,
+  .navbar-toggler:active {
+      outline: none;
+      border: 1px solid transparent;
+      box-shadow: 0 0 0 0.2rem rgba(27, 27, 27, 0.25);
+      border-radius: 50%;
+  }
+
+
+
+
+
+/* Estilos para el botón de descarga PDF */
+.linkContainer button {
+  background-color: #ca52da; /* Color de fondo */
+  border: none;
+  color: white; /* Color del texto */
+ 
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 15px;
+  cursor: pointer;
+  border-radius: 4px; /* Bordes redondeados */
+  transition-duration: 0.4s;
+  padding: 5px;
+}
+
+
+  .linkContainer button:hover {
+    background-color: #e765f8; /* Color de fondo al pasar el cursor */
+    transform: scale(1.1); /* Escala del botón al pasar el cursor */
+    transition-duration: 0.4s; /* Duración de la transición */
+}
 
