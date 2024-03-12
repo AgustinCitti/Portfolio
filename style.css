@@ -413,13 +413,14 @@ section {
     flex-direction: column;
     padding: 20px;
     width: 90%;
-  
+    height: 100%;
   }
   .section1{
     height: 100%;
   }
   .info {
     max-width: 100%;
+    height: 100%;
   }
 }
 
