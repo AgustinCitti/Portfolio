@@ -23,6 +23,9 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
+
+
+
 var swiper = new Swiper(".swiper", {
 effect: "cards",
 grabCursor: true,
@@ -77,14 +80,21 @@ document.getElementById("btn3").addEventListener("click", function() {
 document.getElementById("btn4").addEventListener("click", function() {
     openImage("./assets/CERTIFICADOS/Certificado Backend (espanol).png");
 });
-
+document.getElementById("btn5").addEventListener("click", function() {
+    openImage("./assets/CERTIFICADOS/DataScience.png");
+});
 function openImage(imageSrc) {
     var overlay = document.getElementById("overlay");
     var popupImg = document.getElementById("popupImg");
     popupImg.src = imageSrc;
-    overlay.style.display = "block";
+    overlay.style.display = "block";w
 }
 
 document.getElementById("overlay").addEventListener("click", function() {
     this.style.display = "none";
 });
+
+
+
+
+

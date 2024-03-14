@@ -563,7 +563,7 @@ user-select: none;
 
 .div4 {
   margin: 10px;
-  margin-top: 200px;
+  margin-top: 20px;
   
   width: 20rem;
   height: 100px;
@@ -702,7 +702,8 @@ user-select: none;
     transition-duration: 0.4s; /* Duración de la transición */
 }
 #btn1:hover{
-  background-color: #d30202; /* Color de fondo al pasar el cursor */
+  background: rgb(255,165,0);
+background: linear-gradient(90deg, rgb(255, 145, 0) 0%, rgba(60,153,220,1) 100%);
 }
 #btn2:hover{
   background-color: #ffee00; /* Color de fondo al pasar el cursor */
@@ -713,6 +714,9 @@ user-select: none;
 }
 #btn4:hover{
   background-color: #00b42d; /* Color de fondo al pasar el cursor */
+}
+#btn5:hover{
+  background-color: #ff044f; /* Color de fondo al pasar el cursor */
 }
 
 .slide-up-animation {
@@ -751,3 +755,8 @@ user-select: none;
   max-width: 80%;
   max-height: 80%;
 }
+
+
+
+
+
