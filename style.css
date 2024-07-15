@@ -1,5 +1,5 @@
 body {
-    background-image: url(./assets/images/9316762.jpg);
+    background-image: url(./assets/images/3d-grunge-room-interior-with-spotlight-smoky-atmosphere-background.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -760,3 +760,42 @@ background: linear-gradient(90deg, rgb(255, 145, 0) 0%, rgba(60,153,220,1) 100%)
 
 
 
+.div4a {
+  margin: 10px;
+  width: 20rem;
+  height: 350px;
+  background-color: #F2F2F2;
+  color: #262522;
+  display: flex;
+  text-align: center;
+  justify-content: center; 
+  border-radius: 5px;
+  flex-direction: column;
+  align-items: center; 
+  box-shadow: 0 0 10px rgba(0, 0, 8, 8);
+ 
+
+
+
+justify-content: center;
+align-items: center; 
+
+background: linear-gradient(
+  180deg,
+  rgba(255, 255, 255, 0.884) 0%,
+  rgba(255, 255, 255, 0.253) 100%
+);
+backdrop-filter: blur(30px);
+border-radius: 10px;
+
+box-shadow: 0 0.5px 0 1px rgba(255, 255, 255, 0.23) inset, 0 1px 0 0 rgba(255, 255, 255, 0.66) inset, 0 4px 16px rgba(0, 0, 0, 0.12);
+z-index: 10;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+.col{
+  display: flex;
+  flex-direction: column;
+}
