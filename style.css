@@ -153,7 +153,7 @@ header {
     box-shadow: 0 0 10px rgba(0, 0, 8, 8);
 }
 .fotoPerfil:hover {
-  transform: scale(1.1) rotate(360deg); /* Escala del botón al pasar el cursor y rotación de 360 grados */
+  transform: scale(1.1) ; /* Escala del botón al pasar el cursor y rotación de 360 grados */
   transition-duration: 0.9s; /* Duración de la transición */
 }
 
@@ -681,7 +681,7 @@ user-select: none;
 }
 
 .btnCer {
-  background-color: #ca52da; /* Color de fondo */
+  background-color: #443c46; /* Color de fondo */
   border: none;
   color: white; /* Color del texto */
  
@@ -798,4 +798,8 @@ user-select: none;
 .col{
   display: flex;
   flex-direction: column;
+}
+
+#btn6:hover{
+  background-color: #01030e; /* Color de fondo al pasar el cursor */
 }
