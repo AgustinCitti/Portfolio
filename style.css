@@ -1,5 +1,5 @@
 body {
-    background-image: url(./assets/images/3d-grunge-room-interior-with-spotlight-smoky-atmosphere-background.jpg);
+    background-image: url(./assets/images/abstract-paper-background-concept.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -36,7 +36,7 @@ body {
 
   background: linear-gradient(
     180deg,
-    rgba(255, 255, 255, 0.884) 0%,
+    rgba(255, 255, 255, 0.884) 30%,
     rgba(255, 255, 255, 0.596) 100%
   );
   backdrop-filter: blur(30px);
@@ -116,7 +116,7 @@ body {
 
   background: linear-gradient(
     180deg,
-    rgba(255, 255, 255, 0.884) 0%,
+    rgba(255, 255, 255, 0.884) 85%,
     rgba(255, 255, 255, 0.253) 100%
   );
   backdrop-filter: blur(30px);
@@ -214,7 +214,7 @@ section {
   gap: 30px;
   background: linear-gradient(
     180deg,
-    rgba(255, 255, 255, 0.884) 0%,
+    rgba(255, 255, 255, 0.884) 80%,
     rgba(255, 255, 255, 0.253) 100%
   );
   backdrop-filter: blur(30px);
@@ -448,7 +448,7 @@ align-items: center;
 
 background: linear-gradient(
   180deg,
-  rgba(255, 255, 255, 0.884) 0%,
+  rgba(255, 255, 255, 0.884) 70%,
   rgba(255, 255, 255, 0.596) 100%
 );
 backdrop-filter: blur(30px);
@@ -585,7 +585,7 @@ align-items: center;
 
 background: linear-gradient(
   180deg,
-  rgba(255, 255, 255, 0.884) 0%,
+  rgba(255, 255, 255, 0.884) 60%,
   rgba(255, 255, 255, 0.253) 100%
 );
 backdrop-filter: blur(30px);
@@ -666,7 +666,7 @@ align-items: center;
 
 background: linear-gradient(
   180deg,
-  rgba(255, 255, 255, 0.884) 0%,
+  rgba(255, 255, 255, 0.884) 90%,
   rgba(255, 255, 255, 0.253) 100%
 );
 backdrop-filter: blur(30px);
@@ -681,7 +681,7 @@ user-select: none;
 }
 
 .btnCer {
-  background-color: #443c46; /* Color de fondo */
+  background-color: #50bbf8; /* Color de fondo */
   border: none;
   color: white; /* Color del texto */
  
@@ -801,5 +801,49 @@ user-select: none;
 }
 
 #btn6:hover{
-  background-color: #01030e; /* Color de fondo al pasar el cursor */
+  background-color: #000731; /* Color de fondo al pasar el cursor */
+}
+.div4b {
+  margin: 10px;
+  width: 20rem;
+  height: 250px;
+  background-color: #F2F2F2;
+  color: #262522;
+  display: flex;
+  text-align: center;
+  justify-content: center; 
+  border-radius: 5px;
+  flex-direction: column;
+  align-items: center; 
+  box-shadow: 0 0 10px rgba(0, 0, 8, 8);
+ 
+
+
+
+justify-content: center;
+align-items: center; 
+
+background: linear-gradient(
+  180deg,
+  rgba(255, 255, 255, 0.884) 50%,
+  rgba(255, 255, 255, 0.253) 100%
+);
+backdrop-filter: blur(30px);
+border-radius: 10px;
+
+box-shadow: 0 0.5px 0 1px rgba(255, 255, 255, 0.23) inset, 0 1px 0 0 rgba(255, 255, 255, 0.66) inset, 0 4px 16px rgba(0, 0, 0, 0.12);
+z-index: 10;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+.col{
+  display: flex;
+  flex-direction: column;
+}
+
+.subdiv4{
+  display: flex;
+  flex-direction: row;
 }
