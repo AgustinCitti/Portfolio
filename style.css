@@ -476,7 +476,10 @@ user-select: none;
 }
 }
 
-
+.subdiv4{
+  display: flex;
+  flex-direction: row;
+}
 @media (max-width: 700px) {
 
   .div1 {
@@ -519,6 +522,10 @@ user-select: none;
     display: flex;
     justify-content: center;
   }
+  .subdiv4{
+    display: flex;
+    flex-direction: column;
+  }
   }
 
   .navbar-toggler:focus,
@@ -535,7 +542,7 @@ user-select: none;
 
 /* Estilos para el botón de descarga PDF */
 .linkContainer button {
-  background-color: #ca52da; /* Color de fondo */
+  background-color: #50bbf8; /* Color de fondo */
   border: none;
   color: white; /* Color del texto */
  
@@ -552,7 +559,7 @@ user-select: none;
 
 
   .linkContainer button:hover {
-    background-color: #e765f8; /* Color de fondo al pasar el cursor */
+    background-color: #000731; /* Color de fondo al pasar el cursor */
     transform: scale(1.1); /* Escala del botón al pasar el cursor */
     transition-duration: 0.4s; /* Duración de la transición */
 }
@@ -843,7 +850,3 @@ user-select: none;
   flex-direction: column;
 }
 
-.subdiv4{
-  display: flex;
-  flex-direction: row;
-}
